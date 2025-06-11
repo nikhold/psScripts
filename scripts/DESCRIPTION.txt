@@ -1,0 +1,15 @@
+The following is a description of each script contained in this folder:
+
+
+randomPasswordGenerator.ps1 - 
+
+This is a script that generates random, secure passwords. It first prompts the user for required length, and 
+then whether special characters are allowed or not. After gathering user input, the script will generate 
+at least one number, lowercase and uppercase letter, and special character if required. It will then combine 
+these characters, and randomly generate the remaining characters from a combined pool of all numbers, letters and their case,
+and special characters if required. It will then randomize the order of these characters to ensure randomness. After 
+password is shown, and the user acknowledges they are ready to continue, the generated password is deleted off the 
+system so that it may not be accessed later. It is HIGHLY recommended that you write the generated password
+down on paper so that you do not forget it.
+
+
