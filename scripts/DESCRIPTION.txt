@@ -13,3 +13,12 @@ system so that it may not be accessed later. It is HIGHLY recommended that you w
 down on paper so that you do not forget it.
 
 
+backuproutmk3_pub.ps1 - 
+
+This is a script I use to mirror user files to USB Drives. This is done manually, so files can be safely 
+retrieved if accidently deleted. This one is interactive, as it will prompt the user for the folder they 
+would like to copy, as well as display size information and retry requests once finished or if a folder
+wasn't found. 
+DISCLAIMER: This script needs to be configured before use, as some values had to be altered for anonymity.
+Please read the comments throughout the script very carefully, and they should be able to guide you on what
+you need to change.
