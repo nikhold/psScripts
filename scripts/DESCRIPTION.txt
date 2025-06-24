@@ -22,3 +22,10 @@ wasn't found.
 DISCLAIMER: This script needs to be configured before use, as some values had to be altered for anonymity.
 Please read the comments throughout the script very carefully, and they should be able to guide you on what
 you need to change.
+
+
+maintenanceReport.ps1 - 
+
+This is a script that grabs system data, such as OS version, time, drive health, etc. and formats it into a 
+nice, readable text. Users also have the option of creating a .log file should they want to retain any info.
+The script will check for a "Reports folder, and create one if not. It will then create the .log file in that folder.
