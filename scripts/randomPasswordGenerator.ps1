@@ -7,6 +7,11 @@ while ($retryTest -eq $TRUE) {
     Clear-host
     # Prompt user for length of password
     $length = read-host "Needed Password Length"
+    # Test for input that is not a number
+    while (($length -match "^\d+$") -eq $FALSE) {
+        write-host "INVALID: Input must be a number, try again"
+        $length = read-host "Needed Password Length"
+    }
     # Prompt user for special characters
     $specialChar = read-host "Special Characters Required? [Y/N]"
     # Test for input other than Y or N
