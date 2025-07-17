@@ -5,3 +5,7 @@ DESCRIPTIONS.txt
 ------------------------------------------------------------
 6/24/2025 - 
 Added maintenanceReport.ps1 and updated DESCRIPTIONS.txt
+------------------------------------------------------------
+7/16/2025 - 
+Updated randomPasswordGenerator.ps1, added catch if number not
+entered in password length section
