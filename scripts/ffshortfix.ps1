@@ -13,21 +13,11 @@ $shortcutObject1.TargetPath = "$prog"
 #input profile
 $shortcutObject1.Arguments="-P default-release"
 #input icon location
-$shortcutObject1.IconLocation="C:\Users\nikee\Documents - Copy\Programs\[Programs] Windows\FirefoxShortcutFixer\firefox.ico.ico"
+#This is optional, but if you would like to use this then
+#obtain the ico file you want to use and but the location below
+#$shortcutObject1.IconLocation=""
 #save
 $shortcutObject1.Save()
 
-##School profile shortcut
-#set shortcut path
-$targetLoc2="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Firefox - School.lnk"
-#create shortcut object
-$WshShell2 = New-Object -ComObject WScript.Shell
-$shortcutObject2 = $WshShell2.CreateShortcut($targetLoc2)
-#input shortcut path
-$shortcutObject2.TargetPath = "$prog"
-#input profile
-$shortcutObject2.Arguments="-P School"
-#input icon location
-$shortcutObject2.IconLocation="C:\Users\nikee\Documents - Copy\Programs\[Programs] Windows\FirefoxShortcutFixer\firefox.ico.ico"
-#save
-$shortcutObject2.Save()
+###This can be done with mutliple profiles!!!
+##Just copy and paste the code above below and alter the variables to your liking :)
