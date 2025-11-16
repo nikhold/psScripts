@@ -9,3 +9,6 @@ Added maintenanceReport.ps1 and updated DESCRIPTIONS.txt
 7/16/2025 - 
 Updated randomPasswordGenerator.ps1, added catch if number not
 entered in password length section
+------------------------------------------------------------
+11/16/2025 - 
+Added ffshortfix.ps1 and updated DESCRIPTIONS.txt
